@@ -23,7 +23,7 @@
   },
   "features": {
     "ghcr.io/devcontainers/features/node:1": {
-      "version": "lts",
+      "version": "25",
       "nodeGypDependencies": true
     },
     "ghcr.io/anthropics/devcontainer-features/claude-code:1": {},
