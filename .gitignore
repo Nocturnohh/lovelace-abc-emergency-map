@@ -299,3 +299,6 @@ $RECYCLE.BIN/
 
 #PNPM
 .pnpm-store
+
+# Claude
+.claude/logs/
