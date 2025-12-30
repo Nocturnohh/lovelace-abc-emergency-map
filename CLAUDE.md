@@ -33,7 +33,7 @@ pnpm run typecheck # TypeScript check
 
 | Item        | Value                                             |
 | ----------- | ------------------------------------------------- |
-| Project URL | https://github.com/users/troykelly/projects/6     |
+| Project URL | https://github.com/users/troykelly/projects/7     |
 | Repository  | troykelly/lovelace-abc-emergency-map              |
 
 ### The Iron Law

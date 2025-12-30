@@ -104,7 +104,7 @@ For live development, consider using a symlink or HTTP server.
 
 All work should be tracked via GitHub Issues and the project board.
 
-- **Project:** https://github.com/users/troykelly/projects/6
+- **Project:** https://github.com/users/troykelly/projects/7
 - **Repository:** https://github.com/troykelly/lovelace-abc-emergency-map
 
 ## Related Resources
