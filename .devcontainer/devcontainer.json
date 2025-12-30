@@ -6,6 +6,10 @@
   },
   "postCreateCommand": ".devcontainer/postCreateCommand.sh",
   "postStartCommand": ".devcontainer/postStartCommand.sh",
+  "containerEnv": {
+    "PYTHONASYNCIODEBUG": "1",
+    "UV_LINK_MODE": "copy"
+  },
   "forwardPorts": [5000, 8123],
   "portsAttributes": {
     "5000": {
@@ -26,9 +30,13 @@
     "ghcr.io/devcontainers-extra/features/pnpm:2": {
       "version": "latest"
     },
+    "ghcr.io/va-h/devcontainers-features/uv:1": {
+      "version": "latest",
+      "shellautocompletion": true
+    },
     "ghcr.io/devcontainers/features/github-cli:1": {},
     "ghcr.io/devcontainers-extra/features/apt-packages:1": {
-      "packages": "zsh,fzf"
+      "packages": "ffmpeg,libturbojpeg0,libpcap-dev,zsh,fzf"
     }
   },
   "customizations": {
@@ -41,7 +49,12 @@
         "eamodio.gitlens",
         "usernamehw.errorlens",
         "anthropic.claude-code",
-        "bradlc.vscode-tailwindcss"
+        "bradlc.vscode-tailwindcss",
+        "charliermarsh.ruff",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+        "redhat.vscode-yaml"
       ],
       "settings": {
         "files.eol": "\n",
@@ -51,12 +64,26 @@
         "editor.formatOnType": false,
         "files.trimTrailingWhitespace": true,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "python.analysis.typeCheckingMode": "basic",
+        "python.defaultInterpreterPath": "/home/vscode/.local/ha-venv/bin/python",
+        "python.terminal.activateEnvInCurrentTerminal": true,
         "[typescript]": {
           "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[python]": {
+          "editor.defaultFormatter": "charliermarsh.ruff"
         },
         "[json][jsonc][yaml]": {
           "editor.defaultFormatter": "esbenp.prettier-vscode"
         },
+        "yaml.customTags": [
+          "!input scalar",
+          "!secret scalar",
+          "!include_dir_named scalar",
+          "!include_dir_list scalar",
+          "!include_dir_merge_list scalar",
+          "!include_dir_merge_named scalar"
+        ],
         "terminal.integrated.defaultProfile.linux": "zsh",
         "terminal.integrated.profiles.linux": {
           "zsh": {
@@ -69,6 +96,8 @@
   "runArgs": [
     "-e",
     "GIT_EDITOR=code --wait",
+    "--security-opt",
+    "label=disable",
     "--env-file",
     "${localWorkspaceFolder}/.env"
   ],
