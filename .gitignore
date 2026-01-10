@@ -301,3 +301,6 @@ $RECYCLE.BIN/
 
 # Claude
 .claude/logs/
+
+# Env files
+*.env
